@@ -12,7 +12,8 @@ dict = {
     },
     'auto':{'model':'fiat'},
 }
-print(dict['country']['name'],dict['country']['doc'][0],dict['person']['first'],dict['person']['last'],dict['person']['data']['age'],dict['person']['data']['rank'],dict['auto']['model'])
+print(dict['country']['name'],dict['country']['doc'][0],dict['person']['first'],dict['person']['last'],dict['person']['data']['age'],dict['person']['data']['rank'],
+dict['auto']['model'])
 
 
 
