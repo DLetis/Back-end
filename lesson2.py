@@ -35,9 +35,20 @@ transactions = {
 }
 total_amount = 0
 for transaction in transactions.values():
-    # if transaction['add']:
-    #     if "Хлеб" in transaction["products"]:
-    #        total_amount += transaction["amount"]
     if transaction['add'] and "Хлеб" in transaction["products"]:
         total_amount += transaction["amount"]
 print(total_amount)
+
+# total_amount = 0 
+# for z in transactions.values(): 
+#      if z['add']: 
+#          if 'Хлеб' in z['products']: 
+#              total_amount += z['amount']
+# print(total_amount)
+
+# total_amount = 0
+# for transaction in transactions.values():
+#     if transaction['add']:
+#         if "Хлеб" in transaction["products"]:
+#            total_amount += transaction["amount"]
+# print(total_amount)
